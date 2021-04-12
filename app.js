@@ -13,8 +13,24 @@
 // 2. Palindrome again.
 // Write a function checkPalindrome that accepts a single argument, a string. Yes, you've done it before, but do it again. Later in this assignment we're gonna beef up our palindrome function some. See if you can do it without looking back at your previous answer. The function should return true if the string is a palindrome, false if not. Make sure your function will give the correct answer for words with capital letters.
 
-function checkPalindrome(string) {
-  const lowercase = string.toLowerCase();
+// function checkPalindrome(string) {
+//   const lowercase = string.toLowerCase();
 
-  return lowercase === lowercase.split('').reverse().join('');
-}
+//   return lowercase === lowercase.split('').reverse().join('');
+// }
+
+// 3. Write a function sumDigits that accepts a number and returns the sum of its digits.
+// function sumDigits(num) {
+//   const numAsString = num.toString();
+//   let sum = 0;
+
+//   for (let i = 0; i < numAsString.length; i++) {
+//     sum += parseInt(numAsString[i]);
+//   }
+
+//   return sum;
+// }
+
+// console.log(sumDigits(121));
+
+// 4. 
